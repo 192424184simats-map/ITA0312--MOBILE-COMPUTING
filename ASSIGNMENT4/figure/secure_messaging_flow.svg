@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="590" viewBox="0 0 1100 590">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="52" font-family="Arial" font-size="30" font-weight="bold" fill="#17365d">Secure Background Messaging Flow</text>
+<rect x="55" y="150" width="220" height="115" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="165.0" y="180" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">Push service</text>
+<text x="165.0" y="208" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">FCM / APNs / WNS</text><rect x="350" y="150" width="220" height="115" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="460.0" y="180" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">App process</text>
+<text x="460.0" y="208" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Short background execution</text><rect x="645" y="150" width="220" height="115" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="755.0" y="180" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">Secure storage</text>
+<text x="755.0" y="208" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Keystore / Keychain</text><rect x="350" y="360" width="220" height="115" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="460.0" y="390" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">Decrypt locally</text>
+<text x="460.0" y="418" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Ciphertext only in push</text><path d="M275 207 H350 M570 207 H645 M755 265 V315 H460 V360" stroke="#315b85" stroke-width="4" fill="none"/><path d="M340 199 L350 207 L340 215 M635 199 L645 207 L635 215 M452 350 L460 360 L468 350" stroke="#315b85" stroke-width="3" fill="none"/><text x="550" y="520" text-anchor="middle" font-family="Arial" font-size="18" fill="#333">Never place plaintext message bodies or authentication secrets in push payloads.</text>
+</svg>
