@@ -1,1 +1,1 @@
-{"note":"Run python feedsim.py to regenerate B3 outputs; default scaling stops at n=400."}
+Run `python feedsim.py` in this folder to generate the B3 results. The default reproducible run includes the 200-instance comparison and scaling through 400 items; larger exhaustive cases can be added to the scale list.
