@@ -1,0 +1,3 @@
+# Python 3.9+
+# Simulators use only the Python standard library.
+# Optional plotting: matplotlib>=3.5
