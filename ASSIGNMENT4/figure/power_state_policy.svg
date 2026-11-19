@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="52" font-family="Arial" font-size="30" font-weight="bold" fill="#17365d">Power-State Policy</text>
+<rect x="70" y="190" width="210" height="110" rx="12" fill="#d9ead3" stroke="#315b85" stroke-width="2"/>
+<text x="175.0" y="220" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">S0 ACTIVE</text>
+<text x="175.0" y="248" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Display on; foreground work</text><path d="M 280 245 L 320 245" stroke="#333" stroke-width="3" fill="none"/><path d="M 310 237 L 320 245 L 310 253" stroke="#333" stroke-width="3" fill="none"/><rect x="320" y="190" width="210" height="110" rx="12" fill="#fff2cc" stroke="#315b85" stroke-width="2"/>
+<text x="425.0" y="220" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">S1 IDLE / CPU AWAKE</text>
+<text x="425.0" y="248" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Screen off; temporary wake lock</text><path d="M 530 245 L 570 245" stroke="#333" stroke-width="3" fill="none"/><path d="M 560 237 L 570 245 L 560 253" stroke="#333" stroke-width="3" fill="none"/><rect x="570" y="190" width="210" height="110" rx="12" fill="#d9eaf7" stroke="#315b85" stroke-width="2"/>
+<text x="675.0" y="220" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">S2 SUSPENDED</text>
+<text x="675.0" y="248" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">CPU asleep; wake sources armed</text><path d="M 780 245 L 820 245" stroke="#333" stroke-width="3" fill="none"/><path d="M 810 237 L 820 245 L 810 253" stroke="#333" stroke-width="3" fill="none"/><rect x="820" y="190" width="210" height="110" rx="12" fill="#eadcf8" stroke="#315b85" stroke-width="2"/>
+<text x="925.0" y="220" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">S3 MAINTENANCE WINDOW</text>
+<text x="925.0" y="248" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Brief deferred jobs and sync</text><text x="550" y="390" text-anchor="middle" font-family="Arial" font-size="18" fill="#333">Wake source / user interaction resumes the device; release wake locks to permit suspend.</text>
+</svg>
