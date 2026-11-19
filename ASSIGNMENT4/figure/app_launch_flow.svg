@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="610" viewBox="0 0 1100 610">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="52" font-family="Arial" font-size="30" font-weight="bold" fill="#17365d">Android Application Launch Sequence</text>
+<rect x="70" y="95" width="430" height="82" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="285.0" y="125" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">User taps app icon</text>
+<text x="285.0" y="153" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Launcher sends startActivity</text><path d="M 285 177 L 285 203" stroke="#315b85" stroke-width="3" fill="none"/><rect x="590" y="95" width="430" height="82" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="805.0" y="125" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">Resolve component</text>
+<text x="805.0" y="153" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">PackageManager / permission checks</text><path d="M 1020 136 L 70 266" stroke="#315b85" stroke-width="3" fill="none"/><rect x="70" y="225" width="430" height="82" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="285.0" y="255" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">Find process</text>
+<text x="285.0" y="283" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">ActivityManager checks process table</text><path d="M 285 307 L 285 333" stroke="#315b85" stroke-width="3" fill="none"/><rect x="590" y="225" width="430" height="82" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="805.0" y="255" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">Create process</text>
+<text x="805.0" y="283" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Zygote forks and specializes UID</text><path d="M 1020 266 L 70 396" stroke="#315b85" stroke-width="3" fill="none"/><rect x="70" y="355" width="430" height="82" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="285.0" y="385" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">Initialize runtime</text>
+<text x="285.0" y="413" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">ART, Looper, Binder threads</text><path d="M 285 437 L 285 463" stroke="#315b85" stroke-width="3" fill="none"/><rect x="590" y="355" width="430" height="82" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="805.0" y="385" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">Load app</text>
+<text x="805.0" y="413" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">ClassLoader, Application, Activity</text><path d="M 1020 396 L 70 526" stroke="#315b85" stroke-width="3" fill="none"/><rect x="70" y="485" width="430" height="82" rx="12" fill="#eaf1f8" stroke="#315b85" stroke-width="2"/>
+<text x="285.0" y="515" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">Render screen</text>
+<text x="285.0" y="543" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">WindowManager + SurfaceFlinger</text>
+</svg>
