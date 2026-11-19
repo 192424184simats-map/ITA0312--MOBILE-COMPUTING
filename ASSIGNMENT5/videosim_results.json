@@ -1,1 +1,1 @@
-{"note":"Run python videosim.py to regenerate the deterministic B4 output."}
+Run `python videosim.py` in this folder to generate the full B4 results, including sample profiles and the 3,000-profile random-device experiment.
