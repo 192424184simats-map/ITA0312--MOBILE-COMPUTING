@@ -1,1 +1,34 @@
+# ASSIGNMENT 4 — Mobile Computing
 
+Repository materials for **Assignment 4 – Parts I and II**: Mobile Operating Systems, Architectures, Runtimes, Security and Power Management.
+
+## Contents
+
+- `Assignment4_Model_Answers.docx` — written model answers in the working package.
+- `figure/` — five diagrams: Android architecture, app launch, power states, secure messaging, and battery-energy comparison.
+- `android/` — Kotlin lifecycle, image-processing, runtime benchmark, and ADB instrumentation examples.
+- `data/battery_results.csv` — simulation output used by the battery comparison.
+- `part2_task4_security_audit.py` — STRIDE security audit model.
+- `part2_task6_battery_tracker.py` — battery-aware tracking/power-policy simulation.
+- `requirements.txt` — no third-party Python packages required.
+
+## Run Python examples
+
+Python 3.10+; standard library only:
+
+```bash
+python part2_task4_security_audit.py
+python part2_task6_battery_tracker.py
+```
+
+## Android examples
+
+The Kotlin files are reference snippets, not a complete Android Studio project. Add them to a suitable app module and include AndroidX Lifecycle/ViewModel and Kotlin Coroutines dependencies where needed. Run the shell script on an Android emulator/device with ADB.
+
+## Figures
+
+The SVG diagrams are editable and can be opened in a browser, Figma, Inkscape, or diagrams.net.
+
+## Evidence note
+
+Some measurements in the report are reference/simulated values. Replace them with your own emulator/device captures wherever the assignment requests experimental evidence.
