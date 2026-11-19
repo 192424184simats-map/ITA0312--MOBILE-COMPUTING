@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="52" font-family="Arial" font-size="30" font-weight="bold" fill="#17365d">Android Layered Architecture</text>
+<rect x="250" y="85" width="600" height="62" rx="12" fill="#dce8f5" stroke="#315b85" stroke-width="2"/>
+<text x="550.0" y="115" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">L7 Applications</text>
+<text x="550.0" y="143" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Apps, activities, services</text><rect x="250" y="161" width="600" height="62" rx="12" fill="#f1f5f9" stroke="#315b85" stroke-width="2"/>
+<text x="550.0" y="191" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">L6 Application Framework</text>
+<text x="550.0" y="219" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">System services, permissions, power policy</text><rect x="250" y="237" width="600" height="62" rx="12" fill="#dce8f5" stroke="#315b85" stroke-width="2"/>
+<text x="550.0" y="267" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">L5 Android Runtime (ART)</text>
+<text x="550.0" y="295" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">DEX, interpreter, JIT/AOT, garbage collection</text><rect x="250" y="313" width="600" height="62" rx="12" fill="#f1f5f9" stroke="#315b85" stroke-width="2"/>
+<text x="550.0" y="343" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">L4 Native Libraries</text>
+<text x="550.0" y="371" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Bionic, graphics, media, SQLite, TLS</text><rect x="250" y="389" width="600" height="62" rx="12" fill="#dce8f5" stroke="#315b85" stroke-width="2"/>
+<text x="550.0" y="419" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">L3 Hardware Abstraction Layer</text>
+<text x="550.0" y="447" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Camera, audio, sensors, power HAL</text><rect x="250" y="465" width="600" height="62" rx="12" fill="#f1f5f9" stroke="#315b85" stroke-width="2"/>
+<text x="550.0" y="495" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">L2 Linux Kernel</text>
+<text x="550.0" y="523" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">Scheduler, memory, Binder, drivers, SELinux</text><rect x="250" y="541" width="600" height="62" rx="12" fill="#dce8f5" stroke="#315b85" stroke-width="2"/>
+<text x="550.0" y="571" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#17365d">L1 Hardware</text>
+<text x="550.0" y="599" text-anchor="middle" font-family="Arial" font-size="14" fill="#243447">CPU, GPU, modem, RAM, sensors, battery</text>
+</svg>
